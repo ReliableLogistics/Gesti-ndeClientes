@@ -1,0 +1,19 @@
+{
+  "name": "Vuelve · Clientes que regresan",
+  "short_name": "Vuelve",
+  "description": "Te avisa cuándo un cliente dejó de comprarte y te ayuda a recuperarlo por WhatsApp.",
+  "lang": "es",
+  "id": "./",
+  "start_url": "./?app=1",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F6F5FA",
+  "theme_color": "#5B21B6",
+  "categories": ["business", "productivity"],
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

@@ -1,0 +1,13 @@
+VUELVE · CÓMO PUBLICARLA COMO APP INSTALABLE (GitHub Pages)
+============================================================
+1. Entra a github.com y crea un repositorio nuevo, por ejemplo: vuelve-app (público).
+2. Toca "Add file" > "Upload files" y sube TODOS estos archivos (sin carpetas):
+   index.html, manifest.webmanifest, sw.js, icon-192.png, icon-512.png,
+   icon-maskable-512.png, apple-touch-icon.png
+3. Ve a Settings > Pages > "Deploy from a branch" > rama main, carpeta / (root) > Save.
+4. En 1–2 minutos tendrás el enlace:  https://TU-USUARIO.github.io/vuelve-app/
+5. Comparte ese enlace. Al abrirlo en Chrome (Android) sale el botón "Instalar";
+   en iPhone: Safari > Compartir > "Agregar a inicio".
+
+Para actualizar la app: vuelve a subir index.html y, en sw.js, cambia
+const CACHE='vuelve-v1'  por  'vuelve-v2' (así los celulares descargan la nueva versión).
